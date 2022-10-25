@@ -1,0 +1,35 @@
+@media screen and (max-width:750px) {
+    nav{
+        width: 90%;
+    }
+    nav ul{
+        display: none;
+    }
+    .container{
+        width: 95%;
+    }
+    header{
+        padding-left: 1rem;
+    }
+    header .input-box{
+        width: 80%;
+    }
+    .category-cards-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        /* padding: 0 1.2rem; */
+    }
+    .category-cards{
+        width: 120px;
+    }
+    .card-row{
+        flex-direction: column;
+    }
+    .download-section{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+}
+/* --- done ---  */

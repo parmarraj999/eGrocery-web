@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery store</title>
+</head>
+<body>
+    <!-- -- shopping_bag---  -->
+    <nav>
+       <div class="logo">
+        e<span>Grocery</span>
+       </div>
+       <ul>
+          <li class="active">Home</li>
+          <li>Catagories</li>
+          <li>Our products</li>
+          <li>Our app</li>
+       </ul>
+       <div class="profile">
+        <div class="heart"><i class="material-icons-outlined">favorite_border</i></div>
+        <div class="cart"><i class="material-icons-outlined">shopping_cart</i></div>
+        <div class="profile-img">
+            John Doe
+            <img src="img/profile.jpg" alt="">
+        </div>
+       </div>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Order your <br>Daily Grocery</h1>
+            <h5>#Free delivery</h5>
+            <div class="input-box">
+                <i class="material-icons-outlined">search</i>
+                <input type="text" placeholder="Search product you want">
+                <button class="btn">search</button>
+            </div>
+        </header>
+        <section class="categories-section">
+            <div class="heading">
+               <h2>Catagory</h2> 
+            </div>
+            <div class="category-cards-container">
+                <div class="category-cards">
+                    <i class="material-icons-outlined" style="font-size:50px;">set_meal</i>
+                    <h6>Meat and fish</h6>
+                </div>
+                <div class="category-cards">
+                    <i class="material-icons-outlined" style="font-size:50px;">credit_card</i>
+                    <h6>Credit Card</h6>
+                </div>
+                <div class="category-cards">
+                    <i class="material-icons-outlined" style="font-size:50px;">healing</i>
+                    <h6>Medicine</h6>
+                </div>
+                <div class="category-cards">
+                    <i class="material-icons-outlined" style="font-size:50px;">shopping_cart_checkout</i>
+                    <h6>Shopping Carts</h6>
+                </div>
+                <div class="category-cards">
+                    <i class="material-icons-outlined" style="font-size:50px;">question_answer</i>
+                    <h6>Ask anything</h6>
+                </div>
+                <div class="category-cards">
+                    <i class="material-icons-outlined" style="font-size:50px;">liquor</i>
+                    <h6>Free Drinks</h6>
+                </div>
+                <div class="category-cards">
+                    <i class="material-icons-outlined" style="font-size:50px;">attach_money</i>
+                    <h6>Save Money</h6>
+                </div>
+            </div>
+        </section>
+        <section class="popular-section">
+            <div class="heading">
+                <h2>Popular products</h2>
+                <button class="btn">See all</button>
+            </div>
+            <div class="cards-container">
+                <div class="card-row">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/cabagge.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>Cabbage</h3>
+                            <p>1 kg</p>
+                            <h4>$13</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/icecreame.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>ice creame</h3>
+                            <p>1/2 kg</p>
+                            <h4>$7</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/potato.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>potato</h3>
+                            <p>1.5 kg</p>
+                            <h4>$18</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>1</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/bundle-3.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>Bundle pack</h3>
+                            <p>5 kg</p>
+                            <h4>$27</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>5</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/biscuit.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>Biscuit</h3>
+                            <p>200 g</p>
+                            <h4>$5</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>4</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/papaya.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>Papaya</h3>
+                            <p>750 g</p>
+                            <h4>$16</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bundle-section">
+            <div class="heading">
+                <h2>Popular Bundle Pack</h2>
+            </div>
+            <div class="cards-container">
+                <div class="card-row">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/bundle-1.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>bundle-1</h3>
+                            <p>1 kg</p>
+                            <h4>$13</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/bundle-2.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>bundle-2</h3>
+                            <p>1 kg</p>
+                            <h4>$13</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/bundle-3.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>bundle-3</h3>
+                            <p>1 kg</p>
+                            <h4>$13</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-row">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/bundle-2.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>bundle-4</h3>
+                            <p>1.3 kg</p>
+                            <h4>$16</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/bundle-3.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>bundle-5</h3>
+                            <p>2 kg</p>
+                            <h4>$23</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/bundle-1.png" alt="">
+                        </div>
+                        <div class="details">
+                            <h3>Bundle-6</h3>
+                            <p>1 kg</p>
+                            <h4>$13</h4>
+                            <div class="ext-box">
+                                <div class="count">
+                                    <i class="material-icons-outlined">-</i>
+                                    <h4>2</h4>
+                                    <i class="material-icons-outlined">+</i>
+                                </div>
+                                <i class="material-icons-outlined spb">shopping_bag</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <div class="heading">
+                <h2>What Our Clients Say</h2>
+            </div>
+            <div class="client-card-container">
+                <div class="client-card">
+                    <div class="client-profile">
+                        <img src="img/profile.jpg" alt="">
+                        <div class="client-details">
+                            <h4>John Doe</h4>
+                            <p>HouseKeeper</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis necessitatibus magni ipsa fuga iste tempore vero soluta, quidem illo, consequatur, nemo </p>
+                </div>
+                <div class="client-card">
+                    <div class="client-profile">
+                        <img src="img/profile.jpg" alt="">
+                        <div class="client-details">
+                            <h4>John Doe</h4>
+                            <p>HouseKeeper</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis necessitatibus magni ipsa fuga iste tempore vero soluta, quidem illo, consequatur, nemo </p>
+                </div>
+                <div class="client-card">
+                    <div class="client-profile">
+                        <img src="img/profile.jpg" alt="">
+                        <div class="client-details">
+                            <h4>John Doe</h4>
+                            <p>HouseKeeper</p>
+                        </div>
+                    </div>
+                    <div class="stars">
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                        <i class="material-icons-outlined">star</i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis necessitatibus magni ipsa fuga iste tempore vero soluta, quidem illo, consequatur, nemo </p>
+                </div>
+            </div>  
+        </section>
+        <section class="download-section">
+            <div class="left-download">
+                <img src="img/img-1.jpg" alt="">
+            </div>
+            <div class="right-download">
+                <h2>Download App Now</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque suscipit voluptatibus, sapiente similique ducimus, sequi, et eius corrupti facere rerum maiores quaerat magni?</p>
+                <button class="btn">Download</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container footer-container">
+            <div class="logo">
+                <h2>e<span>Grocery</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cum dolorem quasi quae, doloribus pariatur sit doloremque asperiores possimus iste perferendis quod provident accusantium eligendi.</p>
+            </div>
+            <div class="block block-1">
+                <h2>About</h2>
+                <ul>
+                    <li>Our Work</li>
+                    <li>Our Product</li>
+                    <li>Our Services</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="block block-2">
+                <h2>Delivery</h2>
+                <ul> 
+                    <li>24/7 delivery</li>
+                    <li>delivery anywhere</li>
+                    <li>deliver anything</li>
+                    <li>On time</li>
+                </ul>
+            </div>
+            <div class="block block-3">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Carl road,</li>
+                    <li>Austrelia</li>
+                    <li>+1 384038472948</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <section class="credit">
+        <h2>Developed by <a href="https://github.com/parmarraj999">Raj parmar</a></h2>
+    </section>
+</body>
+</html>
+<!-- ---- done ----  -->
+<!-- fully responsibe  -->
+<!-- - icon loaded   -->
+<!-- best ui --  -->
